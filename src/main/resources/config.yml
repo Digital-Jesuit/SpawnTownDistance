@@ -1,0 +1,6 @@
+# All values here are for chunk coordinates and distances
+spawn-town-chunk-location:
+  x: 0
+  z: 0
+unclaimable-distance: 10
+message: "<red>You cannot claim a town this close to spawn"

@@ -1,0 +1,10 @@
+name: SpawnTownDistance
+version: '${project.version}'
+main: me.youhavetrouble.spawntowndistance.SpawnTownDistance
+description: Towny plugin for preventing claiming towns too close to spawn
+api-version: '1.20'
+folia-supported: true
+authors:
+  - YouHaveTrouble
+depend:
+  - Towny

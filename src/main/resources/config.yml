@@ -4,3 +4,6 @@ spawn-town-chunk-location:
   z: 0
 unclaimable-distance: 10
 message: "<red>You cannot claim a town this close to spawn"
+prevent-block-place: true
+prevent-block-break: true
+prevent-mob-spawns: true

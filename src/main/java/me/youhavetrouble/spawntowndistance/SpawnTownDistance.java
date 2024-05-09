@@ -33,6 +33,10 @@ public final class SpawnTownDistance extends JavaPlugin implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
     public void onClaim(TownPreClaimEvent event) {
+
+        // ignore towny admins, they probably know what they're doing. Hopefully.
+        if (event.getPlayer().hasPermission("towny.admin.claim")) return;
+
         if (getDistanceBetweenChunks(
                 spawnTownChunk,
                 new Vector2d(
